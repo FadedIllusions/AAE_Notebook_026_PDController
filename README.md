@@ -7,7 +7,7 @@ No matter how we tune our p-controller, we will always have some degree of oscil
 
 ***   ***   ***   ***   ***   ***   ***   ***   ***
 
-![PD Controller](/images/pd_controller.png)
+![PD Controller](/images/pd_control.png)
 
 With the Proportional-Derivative (PD) Controller, in addition to setting acceleration in proportion to the error, we also look at the rate of change (derivative) of error. Thus, while the p-term is responsible for adjusting the thrust so that z_target is equal to z_actual (via acceleration), the d-term is responsible for adjust the vehicle's velocity matches the target velocity.
 
@@ -15,6 +15,6 @@ With the Proportional-Derivative (PD) Controller, in addition to setting acceler
 
 ***   ***   ***   ***   ***   ***   ***   ***   ***
 
-![PD Code](/images/thrust_control.png)
+![PD Code](/images/trust_control.png)
 
 ***   ***   ***   ***   ***   ***   ***   ***   ***
